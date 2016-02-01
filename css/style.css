@@ -63,6 +63,11 @@ a:hover {
   border-radius: 5px;
 }
 
+.btn:hover {
+  background-color: #aaa;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(secondary), to(grey));
+}
+
 h1 {
   color: #028482;
 }
