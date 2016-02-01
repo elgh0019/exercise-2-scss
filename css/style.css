@@ -41,7 +41,7 @@ html {
 }
 
 .border, ul {
-  border: 1px solid #ccc;
+  border: 1px solid #aaa;
 }
 
 .border p, ul p {
@@ -54,6 +54,15 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.btn {
+  background-color: #aaaaaa;
+  color: white;
+}
+
+h1 {
+  color: #3498db;
 }
 
 /*# sourceMappingURL=style.css.map */

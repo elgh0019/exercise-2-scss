@@ -6,7 +6,7 @@ html {
 	@include button($primary, $white, darkblue); 
 }
 .border{
-	border:1px solid #ccc;
+	border:1px solid #aaa;
 	p{
 		color: red;
 	}
@@ -24,5 +24,10 @@ ul{
 }
 
 .btn{
-	background-color:$background ;
+	background-color:$secondary ;
+	color:white;
+}
+
+h1{
+	color:$primary;
 }
