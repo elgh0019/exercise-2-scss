@@ -53,11 +53,11 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn {
-  background-color: #aaaaaa;
+  background-color: #028482;
   color: white;
 }
 
