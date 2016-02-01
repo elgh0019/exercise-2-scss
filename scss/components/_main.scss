@@ -24,16 +24,16 @@ ul{
 }
 
 .btn{
-	background-color:$secondary ;
+	background-color: $primary;
 	color:white;
 	padding: .5em 1em;
 	border-radius: 5px;
 	&:hover{
 		background-color: #aaa;	
-		background: -webkit-gradient(linear, 0 0, 100% 0, from(secondary), to(grey));
+		background: -webkit-gradient(linear, 0 0, 100% 0, from($primary), to($grey));
 	}
 }
 
 h1{
-	color:$secondary;
+	color:$primary;
 }

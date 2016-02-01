@@ -26,7 +26,7 @@ html {
 }
 
 .primary-btn {
-  background-color: #028482;
+  background-color: #aaaaaa;
   color: #fff;
   padding: .5em 1em;
   border-radius: 3px;
@@ -65,7 +65,7 @@ a:hover {
 
 .btn:hover {
   background-color: #aaa;
-  background: -webkit-gradient(linear, 0 0, 100% 0, from(secondary), to(grey));
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#028482), to(#aaa));
 }
 
 h1 {
