@@ -3,7 +3,7 @@ html {
 	font-family: $helvetica;
 }
 .primary-btn{
-	@include button($secondary, $white, darkblue); 
+	@include button($secondary, $white, grey); 
 }
 .border{
 	border:2px solid #aaa;
@@ -26,6 +26,8 @@ ul{
 .btn{
 	background-color:$secondary ;
 	color:white;
+	padding: .5em 1em;
+	border-radius: 5px;
 }
 
 h1{
